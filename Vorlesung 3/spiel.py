@@ -1,5 +1,6 @@
 # Lustiges Zahlenratespiel
 import random # Modul für Zufallszahlen
+random.shuffle
 
 zahl1 = random.randint(1,10)
 zahl2 = random.randint(1,10)
