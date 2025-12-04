@@ -5,11 +5,12 @@ class Alien:
         self.name = alienname
 
     def hit(self):
+        print(f"{self} get hit!")
         self.health = self.health - 20
         if self.health <= 0:
             print(f"{self} destroyed")
         else:
-            print(f"{self} get hit! {self} health = {self.health}")
+            print(f"New Status: {self}")
 
     def roar(self):
         print(f"{self} Grrrrrr---roaoooor!!")
